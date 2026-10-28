@@ -109,6 +109,21 @@ export default function RootLayout({
               Explore our Ayurvedic product catalogue and learn
               more about our business.
             </p>
+            
+<div
+  style={{
+    display: "flex",
+    flexWrap: "wrap",
+    gap: "18px",
+    marginTop: "20px",
+    fontSize: "14px",
+  }}
+>
+  <a href="/privacy-policy">Privacy Policy</a>
+  <a href="/terms-and-conditions">Terms &amp; Conditions</a>
+  <a href="/contact-us">Contact Us</a>
+</div>
+            
             <p style={{ fontSize: "13px", marginTop: "20px" }}>
               © {new Date().getFullYear()} Bhagwati Ayurved Pharmacy.
               All rights reserved.
